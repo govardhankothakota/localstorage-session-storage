@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form{
+  display: inline-block;
+  width: 400px;
+  height: 350px;
+   border: 1px solid gray; 
+  background-color: cadetblue;
+  border-radius: 15px;
+  font-weight: 600;
+}
+input,select{
+  width: 250px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+form div{
+  margin: 13px;
+}
+button{
+  width: 100px;
+  height: 25px;
+  color: white;
+  border-radius: 10px;
+  background-color: green;
+  border: 1px solid gray;
+
+}
+.signUp{
+  position: relative;
+  top: 5px;
+  left: 100px;
+}
+.loginDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signUpDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signUpDiv div{
+  margin: 5px;
+}
+.signUpForm{
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+  height: 100vh;
+  color: white;
+  
+ 
+}
+.signUpDiv label{
+  display: inline-block;
+  width: 120px;
+}
+.signUp label{
+  display: inline-block;
+}
+.options{
+  width: 250px;
+  height: 25px;
+}
+.signUpButton{
+  position: relative;
+  top: 15px;
+}
+.checkBox{
+  width: 15px;
+  position: relative;
+  top: 7px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: cadetblue;
+  color: white;
+  height: 50px;  
+  text-decoration: none;
+}
+
+ 
+ .link1{
+text-decoration: none;
+color: aliceblue;
+font-weight: 600;
+font-size: 1.2rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 15px;
+width: 190px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}  
+.link1:hover{
+  background-color: azure;
+  color: rgb(252, 48, 126) ;
+
+}
+
